@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Spotify_App_Logo.svg/2048px-Spotify_App_Logo.svg.png"
+                    alt="">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songlist">
+            <h2>Zayn's Playlist</h2>
+            <div>
+                <div class="songItem">
+                    <img src="https://wallpapercave.com/wp/wp4581998.jpg" alt="1">
+                    <span class="songName">Flight of The Stars</span>
+                    <span class="timestamp">3:20 <i class="fa-solid fa-1x fa-play"></i>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="https://wallpapercave.com/wp/wp4581998.jpg" alt="2">
+                    <span class="songName">Stand Still</span>
+                    <span class="timestamp">3:25 <i class="fa-solid fa-1x fa-play"></i>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="https://wallpapercave.com/wp/wp4581998.jpg" alt="3">
+                    <span class="songName">There You Are</span>
+                    <span class="timestamp">3:25 <i class="fa-solid fa-1x fa-play"></i>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="https://wallpapercave.com/wp/wp4581998.jpg" alt="4">
+                    <span class="songName">You Wish You Knew</span>
+                    <span class="timestamp">3:25 <i class="fa-solid fa-1x fa-play"></i>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="https://wallpapercave.com/wp/wp4581998.jpg" alt="5">
+                    <span class="songName">Common</span>
+                    <span class="timestamp">3:25 <i class="fa-solid fa-1x fa-play"></i>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="https://wallpapercave.com/wp/wp4581998.jpg" alt="6">
+                    <span class="songName">Tonight</span>
+                    <span class="timestamp">3:25 <i class="fa-solid fa-1x fa-play"></i>
+                    </span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="songBanner"></div>
+        
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons will be here -->
+            <i class="fa-solid fa-2x fa-backward"></i>
+            <i class="fa-solid fa-2x fa-play" id="masterPlay"></i>
+            <i class="fa-solid fa-2x fa-forward"></i>
+        </div>
+        <div class="songinfo">
+            <i class="fa-solid fa-compact-disc" id="playingicon"></i> Flight of The Stars
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/5d1a04e977.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

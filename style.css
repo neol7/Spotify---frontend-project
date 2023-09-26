@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: blanchedalmond;
+}
+/* nav bar is here */
+nav ul {
+    background-color: black;
+    list-style-type: none;
+    color: white;
+    align-items: center;
+    display: flex;
+}
+nav li {
+    padding: 10px;
+    display: flex;
+}
+/* spotify logo and name is here */
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    font-family: 'Audiowide';
+
+}
+.logo img {
+    width: 45px;
+    padding-left: 10px;
+}
+/* container is here */
+.container {
+    font-family: 'Times New Roman', Times, serif;
+    height: 55vh;
+    display: flex;
+    margin: 30px auto;
+    width: 40%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: 3px solid green;
+    background-image: url('https://i.pinimg.com/564x/31/ab/25/31ab25b22c4bfcf8cdd781d019f9a164.jpg');
+    background-size: 973px;
+    background-position: 100%;
+}
+/* title of playlist */
+.songlist h2{
+    margin: 0;
+    padding: 4px;
+    width: 154px;
+    background-color:rgb(226, 31, 31);
+}
+/* song runbar is here  */
+#myProgressBar {
+    width: 45vw;
+    height: 4px;
+    cursor: pointer;
+}
+/* play backward forward button are here */
+.bottom {
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* icons are here  */
+.icons {
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.icons i{
+    margin-top: 15px;
+    padding: 5px;
+    cursor: pointer;
+}
+/* song items are here */
+.songItem{
+    margin-top: 15px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: green;
+    color: black;
+    border-radius: 5px;
+    /* width: 240px; */
+    font-size: 18px;
+    position: sticky;
+    
+}
+.songItem img{
+    width: 40px;
+    padding-right: 5px;
+}
+.timestamp{
+    padding: 0 10px;
+}
+.timestamp i{
+    padding-left: 5px;
+    cursor: pointer;
+}
+.songinfo{
+    top: 50px;
+    position: absolute;
+    color: white;
+    left: 28vw;
+    font-family: 'Audiowide';   
+}
+.songinfo i{
+    color: green;       
+    transition: opacity 0.2s ease-in;
+}
+
+
